@@ -1,0 +1,90 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem{NBR6028:2003}
+\abntrefinfo{ABNT}{ABNT}{2003}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6028}: Resumo -
+  apresenta{\c c}{\~a}o.
+Rio de Janeiro, 2003, 2~p.}
+
+\bibitem{araujo2012}
+\abntrefinfo{Araujo}{ARAUJO}{2012}
+{ARAUJO, L.~C.
+\emph{Configura{\c c}{\~a}o}: uma perspectiva de arquitetura da informa{\c
+  c}{\~a}o da escola de bras{\'\i}lia.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia,
+  Bras{\'\i}lia, Mar{\c c}o 2012.}
+
+\bibitem{abntex2classe}
+\abntrefinfo{abnTeX2 e Araujo}{ABNTEX2; ARAUJO}{2013}
+{ABNTEX2; ARAUJO, L.~C. \emph{A classe abntex2: Modelo can{\^o}nico de
+  trabalhos acad{\^e}micos brasileiros compat{\'\i}vel com as normas ABNT NBR
+  14724:2011, ABNT NBR 6024:2012 e outras}.
+[S.l.], 2013. Dispon{\'\i}vel em: \url{http://abntex2.googlecode.com/}.}
+
+\bibitem{abntex2-wiki-como-customizar}
+\abntrefinfo{abnTeX2}{ABNTEX2}{2013}
+{ABNTEX2. \emph{Como customizar o abnTeX2}. 2013. Wiki do abnTeX2.
+Dispon{\'\i}vel em:
+  \url{https://code.google.com/p/abntex2/wiki/ComoCustomizar}. Acesso em:
+  23.3.2013.}
+
+\bibitem{abntex2cite}
+\abntrefinfo{abnTeX2 e Araujo}{ABNTEX2; ARAUJO}{2013a}
+{ABNTEX2; ARAUJO, L.~C. \emph{O pacote abntex2cite: Estilos bibliogr{\'a}ficos
+  compat{\'\i}veis com a ABNT NBR 6023}.
+[S.l.], 2013. Dispon{\'\i}vel em: \url{http://abntex2.googlecode.com/}.}
+
+\bibitem{abntex2cite-alf}
+\abntrefinfo{abnTeX2 e Araujo}{ABNTEX2; ARAUJO}{2013b}
+{ABNTEX2; ARAUJO, L.~C. \emph{O pacote abntex2cite: t{\'o}picos
+  espec{\'\i}ficos da ABNT NBR 10520:2002 e o estilo bibliogr{\'a}fico
+  alfab{\'e}tico (sistema autor-data}.
+[S.l.], 2013. Dispon{\'\i}vel em: \url{http://abntex2.googlecode.com/}.}
+
+\bibitem{memoir}
+\abntrefinfo{Wilson e Madsen}{WILSON; MADSEN}{2010}
+{WILSON, P.; MADSEN, L. \emph{The Memoir Class for Configurable Typesetting -
+  User Guide}.
+Normandy Park, WA, 2010. Dispon{\'\i}vel em:
+  \url{http://mirrors.ctan.org/macros/latex/contrib/memoir/memman.pdf}. Acesso
+  em: 19.12.2012.}
+
+\bibitem{NBR10520:2002}
+\abntrefinfo{ABNT}{ABNT}{2002}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 10520}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- apresenta{\c c}\~ao de cita{\c
+  c}\~oes em documentos.
+Rio de Janeiro, 2002, 7~p.}
+
+\bibitem{NBR14724:2011}
+\abntrefinfo{ABNT}{ABNT}{2011}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 14724}:
+  Informa{\c c}\~ao e documenta{\c c}\~ao --- trabalhos acad\^emicos ---
+  apresenta{\c c}\~ao.
+Rio de Janeiro, 2011, 15~p.}
+
+\bibitem{van86}
+\abntrefinfo{{van} Gigch e Pipino}{{van} GIGCH; PIPINO}{1986}
+{{van} GIGCH, J.~P.; PIPINO, L.~L. In search for a paradigm for the discipline
+  of information systems.
+\emph{Future Computing Systems}, v.~1, n.~1, p. 71--97, 1986.}
+
+\bibitem{NBR6024:2012}
+\abntrefinfo{ABNT}{ABNT}{2012}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS T\'ECNICAS. \emph{{NBR} 6024}:
+  Numera{\c c}\~ao progressiva das se{\c c}\~oes de um documento.
+Rio de Janeiro, 2012, 4~p.}
+
+\bibitem{babel}
+\abntrefinfo{Braams}{BRAAMS}{2008}
+{BRAAMS, J. \emph{Babel, a multilingual package for use with LATEX's standard
+  document classes}.
+[S.l.], 2008. Dispon{\'\i}vel em:
+  \url{http://mirrors.ctan.org/info/babel/babel.pdf}. Acesso em: 17.2.2013.}
+
+\end{thebibliography}

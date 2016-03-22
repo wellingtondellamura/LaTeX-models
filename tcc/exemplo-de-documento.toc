@@ -1,0 +1,77 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{23}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Resultados de comandos}}{25}{chapter.2}
+\precistoctext {Isto \IeC {\'e} uma sinopse de cap\IeC {\'\i }tulo. A ABNT n\IeC {\~a}o traz nenhuma normatiza\IeC {\c c}\IeC {\~a}o a respeito desse tipo de resumo, que \IeC {\'e} mais comum em romances e livros t\IeC {\'e}cnicos.}
+\contentsline {section}{\numberline {2.1}Codifica\IeC {\c c}\IeC {\~a}o dos arquivos: UTF8}{25}{section.2.1}
+\contentsline {section}{\numberline {2.2}Cita\IeC {\c c}\IeC {\~o}es diretas}{25}{section.2.2}
+\select@language {english}
+\select@language {brazil}
+\contentsline {section}{\numberline {2.3}Notas de rodap\IeC {\'e}}{26}{section.2.3}
+\contentsline {section}{\numberline {2.4}Tabelas}{26}{section.2.4}
+\contentsline {section}{\numberline {2.5}Figuras}{26}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Figuras em \emph {minipages}}{27}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Express\IeC {\~o}es matem\IeC {\'a}ticas}{28}{section.2.6}
+\contentsline {section}{\numberline {2.7}Enumera\IeC {\c c}\IeC {\~o}es: al\IeC {\'\i }neas e subal\IeC {\'\i }neas}{28}{section.2.7}
+\contentsline {section}{\numberline {2.8}Espa\IeC {\c c}amento entre par\IeC {\'a}grafos e linhas}{29}{section.2.8}
+\contentsline {section}{\numberline {2.9}Inclus\IeC {\~a}o de outros arquivos}{30}{section.2.9}
+\contentsline {section}{\numberline {2.10}Compilar o documento \LaTeX }{30}{section.2.10}
+\contentsline {section}{\numberline {2.11}Remiss\IeC {\~o}es internas}{31}{section.2.11}
+\contentsline {section}{\numberline {2.12}Divis\IeC {\~o}es do documento: se\IeC {\c c}\IeC {\~a}o}{31}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Divis\IeC {\~o}es do documento: subse\IeC {\c c}\IeC {\~a}o}{31}{subsection.2.12.1}
+\contentsline {subsubsection}{\numberline {2.12.1.1}Divis\IeC {\~o}es do documento: subsubse\IeC {\c c}\IeC {\~a}o}{31}{subsubsection.2.12.1.1}
+\contentsline {subsubsection}{\numberline {2.12.1.2}Divis\IeC {\~o}es do documento: subsubse\IeC {\c c}\IeC {\~a}o}{32}{subsubsection.2.12.1.2}
+\contentsline {subsection}{\numberline {2.12.2}Divis\IeC {\~o}es do documento: subse\IeC {\c c}\IeC {\~a}o}{32}{subsection.2.12.2}
+\contentsline {subsubsection}{\numberline {2.12.2.1}Divis\IeC {\~o}es do documento: subsubse\IeC {\c c}\IeC {\~a}o}{32}{subsubsection.2.12.2.1}
+\contentsline {paragraph}{\numberline {2.12.2.1.1}Isto \IeC {\'e} um par\IeC {\'a}grafo rotulado}{32}{paragraph.2.12.2.1.1}
+\contentsline {paragraph}{\numberline {2.12.2.1.2}Isto \IeC {\'e} outro par\IeC {\'a}grafo rotulado}{32}{paragraph.2.12.2.1.2}
+\contentsline {section}{\numberline {2.13}Este \IeC {\'e} um exemplo de nome de se\IeC {\c c}\IeC {\~a}o longo. Ele deve estar alinhado \IeC {\`a} esquerda e a segunda e demais linhas devem iniciar logo abaixo da primeira palavra da primeira linha}{32}{section.2.13}
+\contentsline {section}{\numberline {2.14}Diferentes idiomas e hifeniza\IeC {\c c}\IeC {\~o}es}{32}{section.2.14}
+\contentsline {section}{\numberline {2.15}Consulte o manual da classe \textsf {abntex2}}{33}{section.2.15}
+\contentsline {section}{\numberline {2.16}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{33}{section.2.16}
+\contentsline {subsection}{\numberline {2.16.1}Acentua\IeC {\c c}\IeC {\~a}o de refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{34}{subsection.2.16.1}
+\contentsline {section}{\numberline {2.17}Precisa de ajuda?}{34}{section.2.17}
+\contentsline {section}{\numberline {2.18}Voc\IeC {\^e} pode ajudar?}{34}{section.2.18}
+\contentsline {section}{\numberline {2.19}Quer customizar os modelos do abnT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}2\ para sua institui\IeC {\c c}\IeC {\~a}o ou universidade?}{34}{section.2.19}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Lorem ipsum dolor sit amet}}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aliquam vestibulum fringilla lorem}{35}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aliquam vestibulum fringilla lorem}{35}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Aliquam vestibulum fringilla lorem}{35}{subsubsection.3.1.1.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Lectus lobortis condimentum}}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{37}{section.4.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{39}{section.5.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{41}{chapter.6}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{43}{section*.13}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Ap\^endices}}{45}{section*.14}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Quisque libero justo}}{47}{appendix.A}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{49}{section*.15}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Morbi ultrices rutrum lorem.}}{51}{appendix.anexochapback.1}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Trabalhos Publicados pelo Autor}{53}{appendix*.16}
