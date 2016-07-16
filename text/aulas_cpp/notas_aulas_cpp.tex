@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\author{Wellington Della Mura}
+\title{Notas de Aula: Introdução à Programação}
+\begin{document}
+	\maketitle
+
+\chapter{Conceitos Básicos}
+
+\begin{flushright}
+	\textit{``A essência do conhecimento consiste \\ em aplicá-lo, uma vez possuído.''} \\
+	\textbf{Confúcio}
+\end{flushright}
+
+\section{Preparação do Ambiente}
+Uma tarefa importante ao iniciar os estudos em programação é preparar o ambiente de desenvolvimento.
+Para isso é preciso instalar os recursos necessários para a criação e edição do código-fonte e o compilador para gerar os programas na plataforma escolhida.
+Este texto cobre o uso da linguagem C++\footnote{C++14 - O padrão atual da linguagem C++, oficialmente conhecido como \textit{ISO/IEC 14882:2014(E)} e disponível em \url{https://isocpp.org/std/the-standard}.} sobre plataformas baseadas em Debian GNU/Linux.
+
+\subsection{Instalação do Compilador}
+O compilador mais difundido nas plataformas baseadas em GNU/Linux é o GCC.
+Na realidade o GCC\footnote{Mais informações sobre o GCC em \url{https://gcc.gnu.org/}.} é uma coleção de compiladores e bibliotecas para a construção de programas em linguagem C, C++, Objective C, Java, Fortran, entre outros.
+É muito comum que os pacotes para utilizar o GCC já venham instalados por padrão na maioria das distribuições baseadas em Unix.
+Para instalar o GCC a partir do código-fonte disponível no site oficial, o site \url{https://gcc.gnu.org/install/} provê todos os detalhes.
+Contudo, para instalar os pacotes em distribuições baseadas em Debian basta seguir os comandos abaixo:
+
+\begin{lstlisting}
+# apt-get update
+# apt-get install build-essential
+\end{lstlisting}
+
+
+\section{Compilando o primeiro programa}
+
+\lstset{language=C++}
+\begin{lstlisting}
+#include <iostream>
+
+int main(){
+    std::cout << "Ola Mundo" << std::endl;
+    return 0;
+}
+\end{lstlisting}
+
+
+\end{document}

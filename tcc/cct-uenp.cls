@@ -12,7 +12,7 @@
 %% version 2005/12/01 or later.
 %%
 %% This work has the LPPL maintenance status `maintained'.
-%% 
+%%
 %% The Current Maintainer of this work is Daniel dos Santos Kaster, dskaster@uel.br
 %%
 %% Further information about abnTeX2 are available on http://abntex2.googlecode.com/
@@ -41,7 +41,7 @@
 \PassOptionsToPackage{english}{babel} % idioma adicional para hifenização/citação
 
 %
-% Repassa todos os demais parametros a classe abntex2, 
+% Repassa todos os demais parametros a classe abntex2,
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{abntex2}%
 }
@@ -107,7 +107,18 @@
   \begin{capa}%
 
     \center
-    \includegraphics[width=1\textwidth]{logo-uenp}
+    \begin{tabular}{p{2.8cm}l}
+    \begin{minipage}{2.8cm}
+    	\centering
+      \includegraphics[width=2.8cm]{uenp}
+    \end{minipage} &
+    \begin{minipage}{\textwidth-2.8cm}
+    	\centering
+      {\large UNIVERSIDADE ESTADUAL DO NORTE DO PARAN\'{A}}\\
+      {\small CAMPUS LUIZ MENEGHEL - CENTRO DE CI\^ENCIAS TECNOL\'OGICAS}\\
+      {\large BACHARELADO EM CI\^ENCIA DA COMPUTA\c{C}\~AO}
+    \end{minipage}\\
+    \end{tabular}
 %    \includegraphics[width=1\textwidth]{faixa}
 
     \vspace{1cm}
@@ -121,14 +132,14 @@
     {\ABNTEXchapterfont\bfseries \expandafter\MakeUppercase{\imprimirlocal}}
     \par
     {\ABNTEXchapterfont\bfseries \imprimirdata}
-    
+
     \vspace*{1cm}
 
   \end{capa}
 }
 
 % ---
-% Folha de rosto 
+% Folha de rosto
 % ---
 \renewcommand{\folhaderostocontent}{
 \begin{center}
@@ -178,7 +189,7 @@
     \vspace*{\fill}\vspace*{\fill}
     {\ABNTEXchapterfont\bfseries\large \expandafter\MakeUppercase{\imprimirtitulo}}
     \vspace*{\fill}\vspace*{\fill}
-    
+
     \hspace{.45\textwidth}
     \begin{minipage}{.5\textwidth}
         \imprimirpreambulo
@@ -198,7 +209,7 @@
 
     \end{minipage}%
    \end{center}
-      
+
 \end{folhadeaprovacao}
 }
 
@@ -208,7 +219,7 @@
 \renewenvironment{resumo}[1][\resumoname]{%
 
    \noindent
-   \expandafter\MakeUppercase{\imprimircitacaoautor}. {\bfseries\imprimirtitulo}. \pageref*{LastPage} p. 
+   \expandafter\MakeUppercase{\imprimircitacaoautor}. {\bfseries\imprimirtitulo}. \pageref*{LastPage} p.
    \ifthenelse{\equal{\UENPistcc}{true}}{Trabalho de Conclus\~{a}o de Curso (Bacharelado em Ci\^{e}ncia da Computa\c{c}\~{a}o)}{}%
    \ifthenelse{\equal{\UENPisprojeto}{true}}{Trabalho de Conclus\~{a}o de Curso -- Projeto (Bacharelado em Ci\^{e}ncia da Computa\c{c}\~{a}o)}{}%
    ~-- \imprimirinstituicao, \imprimirlocal, \imprimirdata.
@@ -222,7 +233,7 @@
    }{\end{abstract}
 
   \vspace{\onelineskip}
-    
+
   \noindent
   \textbf{Palavras-chave}: \imprimirpalavraschave
 
@@ -237,7 +248,7 @@
 \newenvironment{Abstract}[1][Abstract]{%
 
    \noindent
-   \expandafter\MakeUppercase{\imprimircitacaoautor}. {\bfseries\imprimirtituloingles}. \pageref*{LastPage} p. 
+   \expandafter\MakeUppercase{\imprimircitacaoautor}. {\bfseries\imprimirtituloingles}. \pageref*{LastPage} p.
    \ifthenelse{\equal{\UENPistcc}{true}}{Final Project (Bachelor of Science in Computer Science)}{}%
    \ifthenelse{\equal{\UENPisprojeto}{true}}{Final Project -- Draft Version (Bachelor of Science in Computer Science)}{}%
    ~-- State University Northern of Parana , \imprimirlocal, \imprimirdata.
@@ -254,7 +265,7 @@
    \end{abstract}
 
   \vspace{\onelineskip}
-    
+
   \noindent
   \textbf{Keywords}: \imprimirpalavraschaveingles
 
@@ -276,11 +287,11 @@
 % ---
 
 % ---
-% Pacotes fundamentais 
+% Pacotes fundamentais
 % ---
 
 \RequirePackage{cmap}			% Mapear caracteres especiais no PDF
-\RequirePackage{lmodern}			% Usa a fonte Latin Modern			
+\RequirePackage{lmodern}			% Usa a fonte Latin Modern
 \RequirePackage{lastpage}			% Usado pela Ficha catalográfica
 \RequirePackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
 \RequirePackage{color}			% Controle das cores
@@ -290,9 +301,9 @@
 % ---
 \RequirePackage[num, recuo=0.8cm]{abntex2cite}	% Citações numéricas padrão ABNT
 
-% --- 
+% ---
 % CONFIGURAÇÕES DE PACOTES
-% --- 
+% ---
 
 % ---
 % Configurações do abntex2cite
@@ -323,11 +334,11 @@
 
 % informações do PDF
 \hypersetup{
-		pdftitle={\@title}, 
+		pdftitle={\@title},
 		pdfauthor={\@author},
     	pdfsubject={\imprimirpreambulo},
 	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico},
 		colorlinks=true,       		% false: boxed links; true: colored links
     	linkcolor=blue,          	% color of internal links
     	citecolor=blue,        		% color of links to bibliography
@@ -335,11 +346,11 @@
 		urlcolor=blue,
 		bookmarksdepth=4
 }
-% --- 
+% ---
 
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
+% ---
+% Espaçamentos entre linhas e parágrafos
+% ---
 
 % O tamanho do parágrafo é dado por:
 \setlength{\parindent}{1.3cm}
